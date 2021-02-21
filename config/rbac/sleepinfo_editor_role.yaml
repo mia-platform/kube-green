@@ -1,0 +1,24 @@
+# permissions for end users to edit sleepinfoes.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: sleepinfo-editor-role
+rules:
+- apiGroups:
+  - kubegreen.kubegreen.com
+  resources:
+  - sleepinfoes
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - kubegreen.kubegreen.com
+  resources:
+  - sleepinfoes/status
+  verbs:
+  - get

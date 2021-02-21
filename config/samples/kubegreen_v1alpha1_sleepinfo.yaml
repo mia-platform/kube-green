@@ -1,0 +1,7 @@
+apiVersion: kubegreen.kubegreen.com/v1alpha1
+kind: SleepInfo
+metadata:
+  name: sleepinfo-sample
+spec:
+  # Add fields here
+  foo: bar
