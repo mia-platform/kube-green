@@ -29,7 +29,7 @@ type SleepInfoStatus struct {
 // +kubebuilder:object:root=true
 // +kubebuilder:subresource:status
 
-// SleepInfo is the Schema for the sleepinfoes API
+// SleepInfo is the Schema for the sleepinfos API
 type SleepInfo struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`

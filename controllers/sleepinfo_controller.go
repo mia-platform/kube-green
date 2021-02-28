@@ -22,9 +22,9 @@ type SleepInfoReconciler struct {
 	Scheme *runtime.Scheme
 }
 
-// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfoes,verbs=get;list;watch;create;update;patch;delete
-// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfoes/status,verbs=get;update;patch
-// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfoes/finalizers,verbs=update
+// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfos,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfos/status,verbs=get;update;patch
+// +kubebuilder:rbac:groups=kubegreen.com,resources=sleepinfos/finalizers,verbs=update
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
 // move the current state of the cluster closer to the desired state.
