@@ -4,4 +4,4 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     cert-manager.io/inject-ca-from: $(CERTIFICATE_NAMESPACE)/$(CERTIFICATE_NAME)
-  name: sleepinfoes.kubegreen.kubegreen.com
+  name: sleepinfoes.kubegreen.com

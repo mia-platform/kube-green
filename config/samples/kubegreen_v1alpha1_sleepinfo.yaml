@@ -1,4 +1,4 @@
-apiVersion: kubegreen.kubegreen.com/v1alpha1
+apiVersion: kubegreen.com/v1alpha1
 kind: SleepInfo
 metadata:
   name: sleepinfo-sample
